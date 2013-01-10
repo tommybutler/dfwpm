@@ -1,3 +1,9 @@
 This is a file made by John Fields
 
+<<<<<<< HEAD
+to prove I can add files to Tommy's project.
+
+shift bang 
+=======
 to prove I can add files to OUR project.
+>>>>>>> 70a6c58175fdca5b472df3a1c7406cee6a67f95c
