@@ -1,0 +1,23 @@
+
+# spammenot - smtp incoming mail daemon
+#
+service smtp_60025
+{
+    disable	= no
+    socket_type	= stream
+    protocol	= tcp
+    wait	= no
+    user	= root
+    server	= /usr/bin/perl
+    server_args	= /etc/spammenot/smtpd.pl
+    flags	= IPv4
+#    interface	= 69.15.21.146
+}
+
+
+
+
+
+
+
+
