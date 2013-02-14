@@ -1,0 +1,74 @@
+1..4
+ok 1 - Test::Perl::Critic for "./apply-perl-critic.pl"
+not ok 2 - Test::Perl::Critic for "./cron_smtp_client.pl"
+#   Failed test 'Test::Perl::Critic for "./cron_smtp_client.pl"'
+#   at /usr/share/perl5/Test/Perl/Critic.pm line 110.
+# 
+# Perl::Critic found these violations in "./cron_smtp_client.pl":
+# Code before strictures are enabled at line 9, column 1.  See page 429 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 84, column 2.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 94, column 3.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 94, column 3.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 150, column 9.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 150, column 9.  See page 207 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 230, column 4.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 383, column 9.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 383, column 9.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 386, column 12.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 386, column 12.  See page 207 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 494, column 2.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 576, column 3.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 576, column 3.  See page 207 of PBP.  (Severity: 5)
+not ok 3 - Test::Perl::Critic for "./pop3.pl"
+#   Failed test 'Test::Perl::Critic for "./pop3.pl"'
+#   at /usr/share/perl5/Test/Perl/Critic.pm line 110.
+# 
+# Perl::Critic found these violations in "./pop3.pl":
+# Code before strictures are enabled at line 10, column 1.  See page 429 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 70, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 70, column 2.  See page 207 of PBP.  (Severity: 5)
+# Subroutine prototypes used at line 148, column 1.  See page 194 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 294, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 294, column 2.  See page 207 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 390, column 2.  See page 108 of PBP.  (Severity: 5)
+# Subroutine prototypes used at line 396, column 1.  See page 194 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 423, column 2.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 446, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 446, column 2.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 524, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 524, column 2.  See page 207 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 574, column 2.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 699, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 699, column 2.  See page 207 of PBP.  (Severity: 5)
+not ok 4 - Test::Perl::Critic for "./smtpd.pl"
+#   Failed test 'Test::Perl::Critic for "./smtpd.pl"'
+#   at /usr/share/perl5/Test/Perl/Critic.pm line 110.
+# 
+# Perl::Critic found these violations in "./smtpd.pl":
+# Code before strictures are enabled at line 38, column 1.  See page 429 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 86, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 86, column 2.  See page 207 of PBP.  (Severity: 5)
+# Subroutine prototypes used at line 188, column 1.  See page 194 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 762, column 2.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 897, column 12.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 897, column 12.  See page 207 of PBP.  (Severity: 5)
+# Loop iterator is not lexical at line 937, column 2.  See page 108 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 984, column 9.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 984, column 9.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1009, column 14.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1009, column 14.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1012, column 16.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1012, column 16.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1031, column 10.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1031, column 10.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1844, column 9.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1844, column 9.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1847, column 12.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1847, column 12.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1909, column 9.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1909, column 9.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1912, column 12.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1912, column 12.  See page 207 of PBP.  (Severity: 5)
+# Bareword file handle opened at line 1955, column 2.  See pages 202,204 of PBP.  (Severity: 5)
+# Two-argument "open" used at line 1955, column 2.  See page 207 of PBP.  (Severity: 5)
+# Looks like you failed 3 tests of 4.
